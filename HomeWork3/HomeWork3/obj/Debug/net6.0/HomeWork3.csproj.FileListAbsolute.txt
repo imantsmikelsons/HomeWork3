@@ -1,0 +1,15 @@
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\bin\Debug\net6.0\HomeWork3.exe
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\bin\Debug\net6.0\HomeWork3.deps.json
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\bin\Debug\net6.0\HomeWork3.runtimeconfig.json
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\bin\Debug\net6.0\HomeWork3.dll
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\bin\Debug\net6.0\HomeWork3.pdb
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.csproj.AssemblyReference.cache
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.AssemblyInfoInputs.cache
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.AssemblyInfo.cs
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.csproj.CoreCompileInputs.cache
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.dll
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\refint\HomeWork3.dll
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.pdb
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\HomeWork3.genruntimeconfig.cache
+C:\Imants Miķelsons\HomeWork3\HomeWork3\HomeWork3\obj\Debug\net6.0\ref\HomeWork3.dll
