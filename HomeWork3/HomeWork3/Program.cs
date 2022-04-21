@@ -30,7 +30,7 @@ Car car = new Car();
 Console.WriteLine("Enter brand numberplate speed:");
 string brand = Console.ReadLine();
 string numberplate = Console.ReadLine();
-double speed = Console.ReadLine();
+string speed = Console.ReadLine();
 
 
 car.Brand = brand;

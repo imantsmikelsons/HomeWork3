@@ -42,12 +42,12 @@ namespace HomeWork3
 
         public void StartToDrive()
         {
-            Speed = 10;
+            Speed = Speed;
             Console.WriteLine("Sākam braukt");
         }
         public double GoFaster()
         { 
-            Speed += 10;
+            Speed = Speed +10;
             Console.WriteLine("Ātrums - " + Speed);
          
         }
