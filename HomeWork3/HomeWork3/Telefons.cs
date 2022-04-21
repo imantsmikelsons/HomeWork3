@@ -24,3 +24,35 @@ namespace HomeWork3
 
     }
 }
+
+
+
+namespace HomeWork3 
+{
+
+    public class Car
+
+    {
+
+        public string Brand { get; set; }
+
+        public string NumberPlate { get; set; }
+
+        public string Speed { get; set; }
+
+        public void StartToDrive()
+        {
+            Speed = 10;
+            Console.WriteLine("Sākam braukt");
+        }
+        public double GoFaster()
+        { 
+            Speed += 10;
+            Console.WriteLine("Ātrums - " + Speed);
+         
+        }
+       
+
+
+    }
+ } 
