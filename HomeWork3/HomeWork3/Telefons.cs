@@ -27,32 +27,40 @@ namespace HomeWork3
 
 
 
-namespace HomeWork3 
+public class Car
 {
+    public string Brand { get; set; }
+    public string NumberPlate { get; set; }
+    public double Speed { get; set; }
 
-    public class Car
-
+    public void StartToDrive()
     {
-
-        public string Brand { get; set; }
-
-        public string NumberPlate { get; set; }
-
-        public string Speed { get; set; }
-
-        public void StartToDrive()
-        {
-            Speed = Speed;
-            Console.WriteLine("Sākam braukt");
-        }
-        public double GoFaster()
-        { 
-            Speed = Speed + 10;
-            Console.WriteLine("Ātrums - " + Speed);
-         
-        }
-       
-
-
+        Speed = 10;
+        Console.WriteLine("Sākam braukt");
     }
- } 
+
+    public double GoFaster()
+    {
+        Speed += 10;
+        Console.WriteLine("Ātrums - " + Speed);
+        return Speed;
+    }
+
+    public void Beep()
+    {
+        Console.WriteLine("Beep");
+    }
+
+    public double SlowDown()
+    {
+        Speed -= 10;
+        Console.WriteLine("Ātrums - " + Speed);
+        return Speed;
+    }
+
+    public void Stop()
+    {
+        Speed = 0;
+        Console.WriteLine("Apstāšanās");
+    }
+}
