@@ -47,7 +47,7 @@ namespace HomeWork3
         }
         public double GoFaster()
         { 
-            Speed = Speed +10;
+            Speed = Speed + 10;
             Console.WriteLine("Ātrums - " + Speed);
          
         }
