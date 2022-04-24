@@ -41,15 +41,33 @@ car.Speed = 10;
 
 Console.WriteLine($"Jaunā mašīna ir {car.Brand}:");
 
-speed = speed;
+
 Console.WriteLine("Sākam braukt");
 
-speed += 10;
-Console.WriteLine("Ātrums - " + speed);
-return speed;
+speed = speed;
+car.Speed = 0;
+
+string speed1 = Console.ReadLine();
+
+speed = speed;
+car.Speed = +10;
+
+Console.WriteLine($"Ātrums {car.Speed}:");
+
+string speed2 = speed;
+car.Speed = -10;
+
+Console.WriteLine($"Bremzēt {car.Speed}:");
 
 
+string speed3 = speed;
+car.Speed = 0;
 
+Console.WriteLine($"Stop - {car.Speed}:");
+
+string beep = Console.ReadLine();
+
+Console.WriteLine("Beep");
 
 
 
