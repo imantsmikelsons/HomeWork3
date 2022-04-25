@@ -24,10 +24,10 @@ namespace HomeWork3
         public string LastName { get { return lastName; } set { lastName = value; } }
 
 
-        public Double DateTime { get { return dateTime; } set { dateTime = value; } }
+        public double DateTime { get { return dateTime; } set { dateTime = value; } }
 
 
-        public String Hobby { get { return hobby; } set { hobby = value; } }
+        public string Hobby { get { return hobby; } set { hobby = value; } }
 
         public string Gender { get { return gender; } set { gender = value; } }
     

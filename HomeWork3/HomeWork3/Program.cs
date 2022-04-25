@@ -114,7 +114,7 @@ Console.WriteLine("Ievadi savu uzvārdu");
 string lastName = Console.ReadLine();
 
 Console.WriteLine("Ievadi savu dzimšanas datumu");
-Double DateTime = Console.ReadLine();
+double DateTime = Console.ReadLine();
 
 Console.WriteLine("Ievadi savu hobiju");
 string hobby = Console.ReadLine();
