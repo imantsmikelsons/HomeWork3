@@ -11,15 +11,15 @@ namespace HomeWork3
 
         public Product()
         {
+
         }
 
-        public Product(string name,double width, double lenght, double weight)
+        public Product(string name, double width, double lenght, double weight)
         {
             _name = name;
             _width = width;
             _lenght = lenght;
             _weight = weight;
-
         }
 
         public string Name { get { return _name; } }
@@ -35,8 +35,6 @@ namespace HomeWork3
             Console.WriteLine($"Produkta platums : {_width} cm");
             Console.WriteLine($"Produkta  garums : {_lenght} cm");
             Console.WriteLine($"Produkta   svars : {_weight} kg");
-           
-           
         }
 
     }

@@ -75,24 +75,50 @@ Console.WriteLine("======================product");
 Console.WriteLine();
 
 
-Product product = new Product();
+//Product product = new Product();
 
-Console.WriteLine("Lai izveidotu jaunu produktu ievadiet tā nosaukumu");
-string productName = Console.ReadLine();
+//Console.WriteLine("Lai izveidotu jaunu produktu ievadiet tā nosaukumu");
+//string productName = Console.ReadLine();
 
-Console.WriteLine("Ievadi produkta platumu centimetros");
-double productWidth = double.Parse(Console.ReadLine());
+//Console.WriteLine("Ievadi produkta platumu centimetros");
+//double productWidth = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Ievadi produkta garumu centimetros");
-double productLenght = double.Parse(Console.ReadLine());
+//Console.WriteLine("Ievadi produkta garumu centimetros");
+//double productLenght = double.Parse(Console.ReadLine());
 
-Console.WriteLine("Ievadi produkta svaru kilogramos");
-double productWeight = double.Parse(Console.ReadLine());
+//Console.WriteLine("Ievadi produkta svaru kilogramos");
+//double productWeight = double.Parse(Console.ReadLine());
 
 
-Product Product = new Product(productName, productWidth, productLenght, productWeight);
+//Product Product = new Product(productName, productWidth, productLenght, productWeight);
+//Console.WriteLine();
+
+//product.PrintInfo();
+
+
+
+
+Console.WriteLine();
+Console.WriteLine("======================person");
 Console.WriteLine();
 
-product.PrintInfo();
 
+Person person = new Person();
+
+
+
+Console.WriteLine("Ievadi savu vārdu");
+string firstName = Console.ReadLine();
+
+Console.WriteLine("Ievadi savu uzvārdu");
+string lastName = Console.ReadLine();
+
+Console.WriteLine("Ievadi savu dzimšanas datumu");
+Double DateTime = Console.ReadLine();
+
+Console.WriteLine("Ievadi savu hobiju");
+string hobby = Console.ReadLine();
+
+Console.WriteLine("Ievadi savu dzimumu");
+string gender = Console.ReadLine();
 
