@@ -1,9 +1,9 @@
 ﻿
 using HomeWork3;
 
-//Console.WriteLine();
-//Console.WriteLine("======================telefons");
-//Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("======================telefons");
+Console.WriteLine();
 
 //Telefons telefons = new Telefons();
 
@@ -75,29 +75,24 @@ Console.WriteLine("======================product");
 Console.WriteLine();
 
 
-//Product maize = new Product();
+Product product = new Product();
 
-//Console.WriteLine("Ievadi produkta platumu centimetros");
-//double productWidth = double.Parse(Console.ReadLine());
-//Console.WriteLine("Lai izveidotu jaunu produktu ievadiet tās nosaukumu" + "\n");
-//string produktName = Console.ReadLine();
+Console.WriteLine("Lai izveidotu jaunu produktu ievadiet tā nosaukumu");
+string productName = Console.ReadLine();
 
+Console.WriteLine("Ievadi produkta platumu centimetros");
+double productWidth = double.Parse(Console.ReadLine());
 
-//Console.WriteLine("\n" + "Ievadi produkta garumu centimetros");
-//double productLenght = double.Parse(Console.ReadLine());
+Console.WriteLine("Ievadi produkta garumu centimetros");
+double productLenght = double.Parse(Console.ReadLine());
 
-//Console.WriteLine("\n" + "Ievadi produkta svaru kilogramos");
-//double productWeight = double.Parse(Console.ReadLine());
-
-
-//Product produkt = new Product(produktName, productWidth, productLenght, productWeight);
-//Console.WriteLine();
-
-//produkt.PrintInfo();
-
-//    }
+Console.WriteLine("Ievadi produkta svaru kilogramos");
+double productWeight = double.Parse(Console.ReadLine());
 
 
-//}
+Product Product = new Product(productName, productWidth, productLenght, productWeight);
+Console.WriteLine();
+
+product.PrintInfo();
 
 
