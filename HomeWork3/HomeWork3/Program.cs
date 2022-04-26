@@ -5,24 +5,24 @@ Console.WriteLine();
 Console.WriteLine("======================telefons");
 Console.WriteLine();
 
-//Telefons telefons = new Telefons();
+////Telefons telefons = new Telefons();
 
-//Console.WriteLine("Enter size mark model:");
+////Console.WriteLine("Enter size mark model:");
 
-//string mark = Console.ReadLine();
-//string size = Console.ReadLine();
-//string model = Console.ReadLine();
+////string mark = Console.ReadLine();
+////string size = Console.ReadLine();
+////string model = Console.ReadLine();
 
 
-//telefons.Mark = mark;
-//telefons.Size = size;
-//telefons.Model = model;
+////telefons.Mark = mark;
+////telefons.Size = size;
+////telefons.Model = model;
 
-//Console.WriteLine($"Apsveicu jaunais telefons ir {telefons.Mark}:");
+////Console.WriteLine($"Apsveicu jaunais telefons ir {telefons.Mark}:");
 
 
 Console.WriteLine();
-Console.WriteLine("======================car");
+Console.WriteLine("======================car"); 
 Console.WriteLine();
 
 //Car car = new Car();
@@ -30,27 +30,39 @@ Console.WriteLine();
 //Console.WriteLine("Enter brand numberPlate speed:");
 
 //string brand = Console.ReadLine();
-//string numberPlate = Console.ReadLine();
-//string speed = Console.ReadLine();
 
 
-//car.Brand = brand;
-//car.NumberPlate = numberPlate;
-//car.Speed = 10;
+//string numberPlateText = Console.ReadLine();
+//int numberPlate = int.Parse(numberPlateText);
+//int result = numberPlate;
+
+//Console.WriteLine("Nummurs" + result);
 
 
-//Console.WriteLine($"Jaunā mašīna ir {car.Brand}:");
+//string speed = Console.ReadLine(); 
+//string speedText = Console.ReadLine();
+//int _ = int.Parse(speedText);
+
+
+//Console.WriteLine("Ātrums" + result);
+
+//brand = brand;
+//numberPlate = numberPlate;
+//speed = speed;
+
+
+//Console.WriteLine($"Jaunā mašīna ir {brand}:");
 
 
 //Console.WriteLine("Sākam braukt");
 
 //speed = speed;
-//car.Speed = 0;
+//Speed = 0;
 
 //string speed1 = Console.ReadLine();
 
 //speed = speed;
-//car.Speed = +10;
+//Speed = +10;
 
 //Console.WriteLine($"Ātrums {car.Speed}:");
 
@@ -81,13 +93,27 @@ Console.WriteLine();
 //string productName = Console.ReadLine();
 
 //Console.WriteLine("Ievadi produkta platumu centimetros");
-//double productWidth = double.Parse(Console.ReadLine());
+//string productWidthText = Console.ReadLine();
+//int productWidth = int.Parse(productWidthText);
+//int result = productWidth;
+
+//Console.WriteLine("Platums :" + result);
+
 
 //Console.WriteLine("Ievadi produkta garumu centimetros");
-//double productLenght = double.Parse(Console.ReadLine());
+//string productLenghtText = Console.ReadLine();
+//int productLenght = int.Parse(productLenghtText);
+//int _ = productLenght;
+
+//Console.WriteLine("Garums :" + result);
+
 
 //Console.WriteLine("Ievadi produkta svaru kilogramos");
-//double productWeight = double.Parse(Console.ReadLine());
+//string productWeightText = Console.ReadLine();
+//int productWeight = int.Parse(productWeightText);
+//int __ = productWeight;
+
+//Console.WriteLine("Svars :" + result);
 
 
 //Product Product = new Product(productName, productWidth, productLenght, productWeight);
@@ -103,22 +129,20 @@ Console.WriteLine("======================person");
 Console.WriteLine();
 
 
-Person person = new Person();
+//Person Person = new Person(); 
 
 
+//Console.WriteLine("Ievadi savu vārdu");
+//string firstName = Console.ReadLine();
 
-Console.WriteLine("Ievadi savu vārdu");
-string firstName = Console.ReadLine();
+//Console.WriteLine("Ievadi savu uzvārdu");
+//string lastName = Console.ReadLine();
 
-Console.WriteLine("Ievadi savu uzvārdu");
-string lastName = Console.ReadLine();
+//Console.WriteLine("Ievadi savu hobiju");
+//string hobby = Console.ReadLine();
 
-Console.WriteLine("Ievadi savu dzimšanas datumu");
-double DateTime = Console.ReadLine();
+//Console.WriteLine("Ievadi savu dzimumu");
+//string gender = Console.ReadLine();
 
-Console.WriteLine("Ievadi savu hobiju");
-string hobby = Console.ReadLine();
 
-Console.WriteLine("Ievadi savu dzimumu");
-string gender = Console.ReadLine();
-
+//Person.PrintInfo();
