@@ -10,7 +10,6 @@ namespace HomeWork3
 
         public Product()
         {
-
         }
 
         public Product(string name, double width, double lenght, double weight)
@@ -21,10 +20,10 @@ namespace HomeWork3
             Weight = weight;
         }
 
-        public string Name { get; set;}
-        public double Width { get; set;}
-        public double Lenght { get; set;}
-        public double Weight { get; set;}
+        public string Name { get;}
+        public double Width { get;}
+        public double Lenght { get;}
+        public double Weight { get;}
         
        
 

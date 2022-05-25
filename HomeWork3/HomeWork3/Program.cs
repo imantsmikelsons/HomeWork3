@@ -129,20 +129,29 @@ Console.WriteLine("======================person");
 Console.WriteLine();
 
 
-//Person Person = new Person(); 
+Person person = new Person();
 
 
-//Console.WriteLine("Ievadi savu vārdu");
-//string firstName = Console.ReadLine();
+Console.WriteLine("Ievadi savu vārdu");
+person.FirstName = Console.ReadLine();
 
-//Console.WriteLine("Ievadi savu uzvārdu");
-//string lastName = Console.ReadLine();
+Console.WriteLine("Ievadi savu uzvārdu");
+person.LastName = Console.ReadLine();
 
-//Console.WriteLine("Ievadi savu hobiju");
-//string hobby = Console.ReadLine();
+Console.WriteLine("Ievadi savu hobiju");
+person.Hobby = Console.ReadLine();
 
-//Console.WriteLine("Ievadi savu dzimumu");
-//string gender = Console.ReadLine();
+Console.WriteLine("Ievadi savu dzimumu");
+person.Gender = Console.ReadLine();
 
 
-//Person.PrintInfo();
+Console.WriteLine("Ievadi savu dzimšanas gadu?");
+string biryhYearText = Console.ReadLine();
+person.BirthDate = int.Parse(biryhYearText);
+
+int age = person.GetAge();
+
+Console.WriteLine($"Tu esi {age} gadus vecs");
+
+person.PrintInfo();
+

@@ -3,9 +3,9 @@ namespace HomeWork3
 {
     public class Car
     {
-        public string Brand { get; set; }
-        public string NumberPlate { get; set; }
-        public double Speed { get; set; }
+        public string Brand { get;}
+        public string NumberPlate { get;}
+        public double Speed { get; private set;}
 
         public void StartToDrive()
         {
@@ -17,7 +17,7 @@ namespace HomeWork3
         public double GoFaster()
         {
             Speed += 10;
-            Console.WriteLine("Ātrums - " + Speed);
+            Console.WriteLine($"Ātrums - {Speed}");
             return Speed;
         }
 
